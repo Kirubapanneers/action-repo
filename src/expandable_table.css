@@ -1,0 +1,131 @@
+.et-container {
+  max-width: 720px;
+  width: 95vw;
+  margin: 48px auto;
+  margin-left: 43%;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 32px 0 rgba(30, 64, 175, 0.08);
+  padding: 36px 24px 24px 24px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.et-title {
+  text-align: center;
+  color: #1976d2;
+  font-size: 2.2rem;
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+}
+
+.et-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #f9fbfd;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(30, 64, 175, 0.06);
+  min-width: 320px;
+}
+
+.et-table th, .et-table td {
+  padding: 14px 12px;
+  text-align: left;
+  font-size: 1rem;
+  word-break: break-word;
+}
+
+.et-table th {
+  background: linear-gradient(90deg, #1976d2 70%, #42a5f5 100%);
+  color: #fff;
+  font-weight: 600;
+  border-bottom: 2px solid #1565c0;
+}
+
+.et-row {
+  background: #fff;
+  color: #1d1b1b;
+  transition: background 0.18s;
+  cursor: pointer;
+}
+
+.et-row-selected {
+  background: #e3f2fd !important;
+  box-shadow: 0 2px 8px 0 rgba(25, 118, 210, 0.07);
+}
+
+.et-row:hover {
+  background: #f1f8fe;
+}
+
+.et-expand-btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.18rem;
+  margin-right: 8px;
+  color: #1976d2;
+  vertical-align: middle;
+  transition: color 0.2s;
+}
+
+.et-expand-btn:hover {
+  color: #0d47a1;
+}
+
+.et-cell-text {
+  vertical-align: middle;
+}
+
+.et-instructions {
+  margin-top: 24px;
+  color: #1d1b1b;
+  font-size: 1.04rem;
+  background: #e3f2fd;
+  border-left: 4px solid #1976d2;
+  padding: 12px 18px;
+  border-radius: 7px;
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 900px) {
+  .et-container {
+    max-width: 98vw;
+    padding: 24px 8px 16px 8px;
+  }
+  .et-title {
+    font-size: 1.6rem;
+  }
+  .et-table th, .et-table td {
+    padding: 10px 6px;
+    font-size: 0.98rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .et-container {
+    margin: 18px auto;
+    padding: 10px 2vw 8px 2vw;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 rgba(30, 64, 175, 0.07);
+  }
+  .et-title {
+    font-size: 1.15rem;
+    margin-bottom: 12px;
+  }
+  .et-table {
+    min-width: unset;
+    font-size: 0.92rem;
+  }
+  .et-table th, .et-table td {
+    padding: 7px 3px;
+    font-size: 0.93rem;
+  }
+  .et-instructions {
+    font-size: 0.97rem;
+    padding: 8px 8px;
+    margin-top: 10px;
+  }
+}

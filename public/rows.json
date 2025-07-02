@@ -1,0 +1,273 @@
+{
+  "rows": [
+    {
+      "id": "1",
+      "text1": "Engineering Department",
+      "text2": "Head: Alice Johnson",
+      "children": [
+        {
+          "id": "1.1",
+          "text1": "Software Team",
+          "text2": "Lead: Bob Smith",
+          "children": [
+            {
+              "id": "1.1.1",
+              "text1": "Frontend Squad",
+              "text2": "Lead: Carol Lee",
+              "children": [
+                {
+                  "id": "1.1.1.1",
+                  "text1": "React Project",
+                  "text2": "Owner: Dan Brown",
+                  "children": []
+                },
+                {
+                  "id": "1.1.1.2",
+                  "text1": "Angular Project",
+                  "text2": "Owner: Eva Green",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "1.1.2",
+              "text1": "Backend Squad",
+              "text2": "Lead: Frank White",
+              "children": [
+                {
+                  "id": "1.1.2.1",
+                  "text1": "API Team",
+                  "text2": "Owner: Grace Kim",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "text1": "QA Team",
+          "text2": "Lead: Henry Adams",
+          "children": [
+            {
+              "id": "1.2.1",
+              "text1": "Automation",
+              "text2": "Owner: Irene Black",
+              "children": []
+            },
+            {
+              "id": "1.2.2",
+              "text1": "Manual Testing",
+              "text2": "Owner: Jack Wilson",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "text1": "Sales Department",
+      "text2": "Head: Karen Miller",
+      "children": [
+        {
+          "id": "2.1",
+          "text1": "Domestic Sales",
+          "text2": "Lead: Liam Scott",
+          "children": [
+            {
+              "id": "2.1.1",
+              "text1": "East Region",
+              "text2": "Manager: Mia Turner",
+              "children": []
+            },
+            {
+              "id": "2.1.2",
+              "text1": "West Region",
+              "text2": "Manager: Noah Carter",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "2.2",
+          "text1": "International Sales",
+          "text2": "Lead: Olivia Evans",
+          "children": [
+            {
+              "id": "2.2.1",
+              "text1": "Europe",
+              "text2": "Manager: Paul Young",
+              "children": []
+            },
+            {
+              "id": "2.2.2",
+              "text1": "Asia",
+              "text2": "Manager: Quinn Harris",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "text1": "Human Resources",
+      "text2": "Head: Rachel King",
+      "children": [
+        {
+          "id": "3.1",
+          "text1": "Recruitment",
+          "text2": "Lead: Steve Martin",
+          "children": []
+        },
+        {
+          "id": "3.2",
+          "text1": "Employee Relations",
+          "text2": "Lead: Tina Brooks",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "text1": "Finance Department",
+      "text2": "Head: Uma Patel",
+      "children": [
+        {
+          "id": "4.1",
+          "text1": "Accounts Payable",
+          "text2": "Manager: Victor Reed",
+          "children": []
+        },
+        {
+          "id": "4.2",
+          "text1": "Accounts Receivable",
+          "text2": "Manager: Wendy Diaz",
+          "children": []
+        },
+        {
+          "id": "4.3",
+          "text1": "Payroll",
+          "text2": "Manager: Xavier Grant",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "text1": "Marketing Department",
+      "text2": "Head: Yvonne Lopez",
+      "children": [
+        {
+          "id": "5.1",
+          "text1": "Digital Marketing",
+          "text2": "Lead: Zachary Hill",
+          "children": [
+            {
+              "id": "5.1.1",
+              "text1": "SEO Team",
+              "text2": "Owner: Amy Clark",
+              "children": []
+            },
+            {
+              "id": "5.1.2",
+              "text1": "Content Team",
+              "text2": "Owner: Brian Adams",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "5.2",
+          "text1": "Event Marketing",
+          "text2": "Lead: Chloe Baker",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "text1": "IT Support",
+      "text2": "Head: David Foster",
+      "children": [
+        {
+          "id": "6.1",
+          "text1": "Helpdesk",
+          "text2": "Lead: Emily Stone",
+          "children": []
+        },
+        {
+          "id": "6.2",
+          "text1": "Infrastructure",
+          "text2": "Lead: Felix Moore",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "text1": "Legal Department",
+      "text2": "Head: Gina Perry",
+      "children": [
+        {
+          "id": "7.1",
+          "text1": "Compliance",
+          "text2": "Lead: Harold Ross",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "text1": "Research & Development",
+      "text2": "Head: Ian Stewart",
+      "children": [
+        {
+          "id": "8.1",
+          "text1": "Product Research",
+          "text2": "Lead: Julia Morgan",
+          "children": []
+        },
+        {
+          "id": "8.2",
+          "text1": "Innovation Lab",
+          "text2": "Lead: Kevin Lee",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "text1": "Customer Service",
+      "text2": "Head: Laura Bell",
+      "children": [
+        {
+          "id": "9.1",
+          "text1": "Call Center",
+          "text2": "Lead: Mark Hall",
+          "children": []
+        },
+        {
+          "id": "9.2",
+          "text1": "Online Support",
+          "text2": "Lead: Nina Price",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "text1": "Procurement",
+      "text2": "Head: Oscar Reed",
+      "children": [
+        {
+          "id": "10.1",
+          "text1": "Vendor Management",
+          "text2": "Lead: Paula Knight",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
