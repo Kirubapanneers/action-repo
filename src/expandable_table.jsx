@@ -59,7 +59,7 @@ function ExpandableTable() {
 
   return (
     <div className="et-container">
-      <h2 className="et-title">Expandable Table</h2>
+      <h2 className="et-title">Expandable Table Project</h2>
       <table className="et-table">
         <thead>
           <tr>
