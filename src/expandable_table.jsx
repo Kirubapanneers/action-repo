@@ -59,7 +59,8 @@ function ExpandableTable() {
 
   return (
     <div className="et-container">
-      <h2 className="et-title">Expandable Tableee</h2>
+      <h2 className="et-title">Exp</h2>
+       <h2 className="et-title">Exp</h2>
       <table className="et-table">
         <thead>
           <tr>
@@ -70,7 +71,8 @@ function ExpandableTable() {
         <tbody>{renderRows(rows)}</tbody>
       </table>
       <div className="et-instructions">
-        <strong>Instructions:</strong> Click a row to select/deselect. Click the arrow to expand/collapse children.
+        <strong>Instructions:</strong> Click a row to select/deselect select. Click the arrow to expand/collapse children.
+           <strong>Instructions:</strong> Click a row to select/deselect. Click the arrow to expand/collapse children.
       </div>
     </div>
   );
